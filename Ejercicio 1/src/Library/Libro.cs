@@ -8,8 +8,8 @@ namespace SRP
         public string Titulo { get ; }
         public string Autor { get ; }
         public string Codigo { get ;  }
-        public string SectorBiblioteca { get ; set; }
-        public string EstanteBiblioteca { get ; set; }
+        /*public string SectorBiblioteca { get ; set; }
+        public string EstanteBiblioteca { get ; set; }*/
 
         public Libro(String titulo, String autor, String codigo)
         {
@@ -20,11 +20,11 @@ namespace SRP
 
         //Se deberia crear otra clase que colabore con Libro que se ocupe de conocer las diferentes bibliotecas, para dividir responsabilidades.
 
-        public void AlmacenarLibro(String sector, String estante)
+        /*public void AlmacenarLibro(String sector, String estante)
         {
             this.SectorBiblioteca = sector;
             this.EstanteBiblioteca = estante;
-        }
+        }*/
 
     }
 }
