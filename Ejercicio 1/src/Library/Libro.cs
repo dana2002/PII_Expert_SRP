@@ -18,6 +18,8 @@ namespace SRP
             this.Codigo = codigo;
         }
 
+        //Se deberia crear otra clase que colabore con Libro que se ocupe de conocer las diferentes bibliotecas, para dividir responsabilidades.
+
         public void AlmacenarLibro(String sector, String estante)
         {
             this.SectorBiblioteca = sector;
